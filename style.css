@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#viewer-container {
+    flex-grow: 1; /* Faz o container do viewer ocupar o espaço restante */
+    width: 100%;
+    background-color: #f0f0f0; /* Cor de fundo para o viewer */
+}
+
+#ifc-file-input, #load-button {
+    margin: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+}
